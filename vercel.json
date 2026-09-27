@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm --filter @workspace/anis-profile run build",
+  "outputDirectory": "artifacts/anis-profile/dist/public"
+}
